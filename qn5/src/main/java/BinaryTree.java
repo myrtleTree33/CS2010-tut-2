@@ -9,10 +9,19 @@ import java.io.Serializable;
  **/
 public class BinaryTree<E> implements Serializable {
 
+    /**
+   * 
+   */
+  private static final long serialVersionUID = 1L;
+
     /** Class to encapsulate a tree node. */
     protected static class Node<E> implements Serializable {
         // Data Fields
 
+        /**
+       * 
+       */
+      private static final long serialVersionUID = 1L;
         /** The information stored in this node. */
         public E data;
         /** Reference to the left child. */
